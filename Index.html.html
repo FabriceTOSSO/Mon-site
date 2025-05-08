@@ -158,7 +158,21 @@
       background: red;
       border-radius: 50%;
     }
+    @media (max-width: 600px) {
+  button {
+    width: 100%;
+    font-size: 1.1em;
+  }
 
+  #actions {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #search {
+    width: 100%;
+  }
+}
     .heart::before { top: -10px; left: 0; }
     .heart::after { top: 0; left: -10px; }
   </style>
